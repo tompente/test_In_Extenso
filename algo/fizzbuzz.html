@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title> Fizzbuzz</title>
+    </head>
+    <body>
+        <script>
+            for (let number = 1; number <= 199; number++) {
+                if (number % 3 == 0) {
+                    console.log(number + " = " + "Fizz");
+                } else if (number % 5 == 0) {
+                    console.log(number + " = " + "Buzz");
+                } else if (number % 3 == 0 && number % 5 == 0) {
+                    console.log(number + " = " + "FizzBuzz");
+                } else {
+                    console.log(number);
+                }
+            }
+        </script>
+    </body>
+</html>
